@@ -38,3 +38,20 @@ https://github.com/Mdshoaib77/devpulse-api
 - 🧱 Modular Backend Architecture
 - 🚨 Centralized Error Handling
 - ✅ Input Validation System
+
+# 🛠️ Technology Stack
+
+| Technology    | Usage                         |
+| ------------- | ----------------------------- |
+| Node.js       | Backend Runtime               |
+| Express.js    | Server Framework              |
+| TypeScript    | Type Safety                   |
+| PostgreSQL    | Relational Database           |
+| pg            | PostgreSQL Driver             |
+| bcrypt        | Password Hashing              |
+| jsonwebtoken  | JWT Authentication            |
+| dotenv        | Environment Variables         |
+| cors          | Cross-Origin Resource Sharing |
+| cookie-parser | Cookie Handling               |
+
+
