@@ -107,3 +107,66 @@ Authorization: your_jwt_token
 | created_at  | TIMESTAMP    |
 | updated_at  | TIMESTAMP    |
 
+# 🌐 API Endpoints
+
+# 🔹 Authentication Routes
+
+## Register User
+
+```http
+POST /api/auth/signup
+```
+
+### Request Body
+
+```json
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "password": "123456",
+  "role": "contributor"
+}
+```
+
+---
+
+## Login User
+
+```http
+POST /api/auth/login
+```
+
+### Request Body
+
+```json
+{
+  "email": "john@example.com",
+  "password": "123456"
+}
+```
+
+---
+
+# 🔹 Issue Routes
+
+## Create Issue
+
+```http
+POST /api/issues
+```
+
+### Headers
+
+```bash
+Authorization: JWT_TOKEN
+```
+
+### Request Body
+
+```json
+{
+  "title": "Database timeout issue",
+  "description": "Pool exhausted after multiple concurrent requests",
+  "type": "bug"
+}
+```
