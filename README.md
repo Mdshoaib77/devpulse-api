@@ -170,3 +170,41 @@ Authorization: JWT_TOKEN
   "type": "bug"
 }
 ```
+
+## Get All Issues
+
+```http
+GET /api/issues
+```
+
+### Query Parameters
+
+```bash
+/api/issues?sort=newest
+/api/issues?type=bug
+/api/issues?status=open
+```
+
+---
+
+## Get Single Issue
+
+```http
+GET /api/issues/:id
+```
+
+---
+
+## Update Issue
+
+```http
+PATCH /api/issues/:id
+```
+
+---
+
+## Delete Issue
+
+```http
+DELETE /api/issues/:id
+```
