@@ -21,3 +21,20 @@ https://devpulse-a2.vercel.app/
 ```bash
 https://github.com/Mdshoaib77/devpulse-api
 ```
+#  Features
+
+- 🔐 JWT Authentication & Authorization
+- 👥 Contributor & Maintainer Roles
+- 🐞 Create Bug Reports
+- 💡 Create Feature Requests
+- 📋 Get All Issues with Filtering & Sorting
+- 🔍 Get Single Issue Details
+- ✏️ Update Issues
+- ❌ Delete Issues
+- 🔒 Protected Routes with JWT Verification
+- 🧂 Password Hashing using bcrypt
+- 🗄️ PostgreSQL Database Integration
+- ⚡ Raw SQL Queries using `pg`
+- 🧱 Modular Backend Architecture
+- 🚨 Centralized Error Handling
+- ✅ Input Validation System
