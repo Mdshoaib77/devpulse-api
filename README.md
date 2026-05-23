@@ -78,3 +78,32 @@ Authorization: your_jwt_token
 | contributor | Create Issues, View Issues                         |
 | maintainer  | All contributor permissions + Update/Delete Issues |
 
+# 🗄️ Database Schema
+
+# Users Table
+
+| Field      | Type      |
+| ---------- | --------- |
+| id         | SERIAL    |
+| name       | VARCHAR   |
+| email      | VARCHAR   |
+| password   | TEXT      |
+| role       | VARCHAR   |
+| created_at | TIMESTAMP |
+| updated_at | TIMESTAMP |
+
+---
+
+# Issues Table
+
+| Field       | Type         |
+| ----------- | ------------ |
+| id          | SERIAL       |
+| title       | VARCHAR(150) |
+| description | TEXT         |
+| type        | VARCHAR      |
+| status      | VARCHAR      |
+| reporter_id | INTEGER      |
+| created_at  | TIMESTAMP    |
+| updated_at  | TIMESTAMP    |
+
