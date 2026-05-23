@@ -15,3 +15,4 @@ Built with **Node.js**, **Express.js**, **TypeScript**, and **PostgreSQL** follo
 # 🌐 Live API
 
 ```bash
+https://devpulse-a2.vercel.app/
