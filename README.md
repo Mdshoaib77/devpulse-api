@@ -231,3 +231,35 @@ Centralized global error handling middleware is implemented for:
 - Not Found Routes
 - Database Errors
 - Server Errors
+# 📌 Important Notes
+
+- Passwords are securely hashed using bcrypt
+- JWT token is required for protected routes
+- No ORM or query builder used
+- Raw SQL queries implemented using `pool.query()`
+- No SQL JOIN used
+- Clean and reusable architecture followed
+
+---
+
+# 🎯 Assignment Requirement Coverage
+
+✅ Authentication System
+✅ JWT Authorization
+✅ Role-Based Access Control
+✅ CRUD Operations
+✅ PostgreSQL Integration
+✅ Raw SQL Queries
+✅ Input Validation
+✅ Error Handling
+✅ TypeScript Strict Mode
+✅ Modular Architecture
+✅ Deployment Ready
+
+---
+
+# ❤️ Thank You
+
+Thank you for checking out this project.
+
+If you like this project, feel free to give it a ⭐ on GitHub.
