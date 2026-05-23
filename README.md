@@ -71,4 +71,10 @@ Server Verifies JWT
 ```bash
 Authorization: your_jwt_token
 ```
+# 👥 User Roles
+
+| Role        | Permissions                                        |
+| ----------- | -------------------------------------------------- |
+| contributor | Create Issues, View Issues                         |
+| maintainer  | All contributor permissions + Update/Delete Issues |
 
