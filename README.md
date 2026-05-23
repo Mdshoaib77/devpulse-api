@@ -54,4 +54,21 @@ https://github.com/Mdshoaib77/devpulse-api
 | cors          | Cross-Origin Resource Sharing |
 | cookie-parser | Cookie Handling               |
 
+# 🔐 Authentication System
+
+DevPulse uses **JWT Authentication**.
+
+### Authentication Flow
+
+```bash
+Client Login → Server Verifies User → JWT Generated → 
+Client Stores Token → Token Sent in Authorization Header →
+Server Verifies JWT
+```
+
+### Authorization Header
+
+```bash
+Authorization: your_jwt_token
+```
 
