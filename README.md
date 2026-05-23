@@ -208,3 +208,26 @@ PATCH /api/issues/:id
 ```http
 DELETE /api/issues/:id
 ```
+# 🚨 Validation Rules
+
+## Issue Validation
+
+- Title is required
+- Title maximum length is 150 characters
+- Description minimum length is 20 characters
+- Type must be:
+  - `bug`
+  - `feature_request`
+
+---
+
+# ⚠️ Error Handling
+
+Centralized global error handling middleware is implemented for:
+
+- Validation Errors
+- Unauthorized Access
+- Forbidden Access
+- Not Found Routes
+- Database Errors
+- Server Errors
