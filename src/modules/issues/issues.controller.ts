@@ -98,7 +98,7 @@ const deleteIssue = async (req: Request, res: Response, next: NextFunction) => {
     });
   } catch (error) {
     next(error);
-  }
+  }n
 };
 
 export const issuesController = {
